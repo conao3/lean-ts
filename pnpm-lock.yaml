@@ -13,20 +13,20 @@ importers:
         version: 1.1.0
       fast-check:
         specifier: ^4.10.2
-        version: 4.10.3
+        version: 4.11.0
       oxc-parser:
         specifier: 0.159.0
         version: 0.159.0
     devDependencies:
       '@hono/standard-validator':
         specifier: 0.4.1
-        version: 0.4.1(@standard-schema/spec@1.1.0)(hono@4.13.19)
+        version: 0.4.1(@standard-schema/spec@1.1.0)(hono@4.13.20)
       '@types/node':
         specifier: ^26.6.6
         version: 26.6.6
       hono:
-        specifier: 4.13.19
-        version: 4.13.19
+        specifier: 4.13.20
+        version: 4.13.20
       vite-plus:
         specifier: 1.7.0
         version: 1.7.0(@types/node@26.6.6)(@vitest/ui@5.1.0)
@@ -43,8 +43,8 @@ importers:
   samples/inventory:
     dependencies:
       fast-check:
-        specifier: 4.10.3
-        version: 4.10.3
+        specifier: 4.11.0
+        version: 4.11.0
       lean-ts:
         specifier: link:../..
         version: link:../..
@@ -53,10 +53,10 @@ importers:
     dependencies:
       '@hono/standard-validator':
         specifier: 0.4.1
-        version: 0.4.1(@standard-schema/spec@1.1.0)(hono@4.13.19)
+        version: 0.4.1(@standard-schema/spec@1.1.0)(hono@4.13.20)
       hono:
-        specifier: 4.13.19
-        version: 4.13.19
+        specifier: 4.13.20
+        version: 4.13.20
       lean-ts:
         specifier: link:../..
         version: link:../..
@@ -73,8 +73,8 @@ importers:
   samples/sorted-search:
     dependencies:
       fast-check:
-        specifier: 4.10.3
-        version: 4.10.3
+        specifier: 4.11.0
+        version: 4.11.0
       lean-ts:
         specifier: link:../..
         version: link:../..
@@ -139,8 +139,8 @@ importers:
   samples/steps/10-ensures:
     dependencies:
       fast-check:
-        specifier: 4.10.3
-        version: 4.10.3
+        specifier: 4.11.0
+        version: 4.11.0
       lean-ts:
         specifier: link:../../..
         version: link:../../..
@@ -148,8 +148,8 @@ importers:
   samples/steps/11-requires:
     dependencies:
       fast-check:
-        specifier: 4.10.3
-        version: 4.10.3
+        specifier: 4.11.0
+        version: 4.11.0
       lean-ts:
         specifier: link:../../..
         version: link:../../..
@@ -157,8 +157,8 @@ importers:
   samples/steps/12-refines:
     dependencies:
       fast-check:
-        specifier: 4.10.3
-        version: 4.10.3
+        specifier: 4.11.0
+        version: 4.11.0
       lean-ts:
         specifier: link:../../..
         version: link:../../..
@@ -166,8 +166,8 @@ importers:
   samples/steps/13-loops:
     dependencies:
       fast-check:
-        specifier: 4.10.3
-        version: 4.10.3
+        specifier: 4.11.0
+        version: 4.11.0
       lean-ts:
         specifier: link:../../..
         version: link:../../..
@@ -175,8 +175,8 @@ importers:
   samples/steps/14-schemas:
     dependencies:
       fast-check:
-        specifier: 4.10.3
-        version: 4.10.3
+        specifier: 4.11.0
+        version: 4.11.0
       lean-ts:
         specifier: link:../../..
         version: link:../../..
@@ -193,8 +193,8 @@ importers:
   samples/verified-typescript:
     dependencies:
       fast-check:
-        specifier: 4.10.3
-        version: 4.10.3
+        specifier: 4.11.0
+        version: 4.11.0
       lean-ts:
         specifier: link:../..
         version: link:../..
@@ -969,8 +969,8 @@ packages:
     resolution: {integrity: sha512-KfYbmpRm0VbLjEvVa9yGwCi9GI34xvi7A/HXYWQO65CSD2u3MczUJSuwXKFIxlGsgBQizV9q5J9NHj4VG0n+pA==}
     engines: {node: '>=12.0.0'}
 
-  fast-check@4.10.3:
-    resolution: {integrity: sha512-SBaU6nhh+sXxb05r2IHAKfxnR/1Pu6MqtHYaewM1BY6V5xzOxOk+4yoWO7WfeeyZG1iArFE6/DO/7iLYMUuOJg==}
+  fast-check@4.11.0:
+    resolution: {integrity: sha512-V4Uc238rhQOdQlc+Gz7JG6SGBtrWnWL8d/6RyiBeCMcNKMhF6DZ0KkAVHJSyNV5r4lA0PmIpZ6iRpTVoz4qjoA==}
     engines: {node: '>=12.17.0'}
 
   fdir@6.5.0:
@@ -993,8 +993,8 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
-  hono@4.13.19:
-    resolution: {integrity: sha512-KmXvQAXwcAHV+muzbIwoJ23niEB5nMoDVr9WcRkU8mvjUECm/1+7v4Jgp7P7a+H6MLFrh+vXrGonGrGS+RQfkA==}
+  hono@4.13.20:
+    resolution: {integrity: sha512-xo6gecEJQ+CjTtOUUbcLHE8CdRKMeF4qITe+DT+OhFnSUmZR/ZBa9XavAfiGh4HlukmlaHFdaK4dz5tkTYFNmA==}
     engines: {node: '>=16.9.0'}
 
   js-tokens@4.0.0:
@@ -1275,10 +1275,12 @@ packages:
   yuku-core@0.19.0:
     resolution: {integrity: sha512-kYK9e1XdfirNhkipzW0wmMcSWcVF/CWnuugodfVYRCUwvoBefweL9HzB96OiKEhsx78V5WbUxbJqlizMX869Qg==}
     engines: {node: '>=14.18.0'}
+    deprecated: 'Yuku is now one package with one core. Use "yuku" instead: https://yuku.fyi/javascript/. Existing installs keep working but get no more fixes.'
 
   yuku-parser@0.19.0:
     resolution: {integrity: sha512-XrBh9ZiQK5mJVRxZBAvD6LwRyAYrK3MFtH3+onyuxFL5hFD44EC3QOmIC1FjTj6H2MMwq46/NAI+NZxLZPZgxg==}
     engines: {node: '>=14.18.0'}
+    deprecated: 'Yuku is now one package with one core. Use "yuku" instead: https://yuku.fyi/javascript/. Existing installs keep working but get no more fixes.'
 
   zod@4.6.7:
     resolution: {integrity: sha512-g8W2D2kU6a8untc053fX1uVBKzM7yqAxW/3zwk83+6RyF2+SKOuV+c0wBDhUwzV1PaGapmZH+rmcUzPf+3CGwg==}
@@ -1297,10 +1299,10 @@ snapshots:
 
   '@blazediff/core@1.10.0': {}
 
-  '@hono/standard-validator@0.4.1(@standard-schema/spec@1.1.0)(hono@4.13.19)':
+  '@hono/standard-validator@0.4.1(@standard-schema/spec@1.1.0)(hono@4.13.20)':
     dependencies:
       '@standard-schema/spec': 1.1.0
-      hono: 4.13.19
+      hono: 4.13.20
 
   '@jridgewell/resolve-uri@3.1.3': {}
 
@@ -1723,7 +1725,7 @@ snapshots:
 
   expect-type@1.4.0: {}
 
-  fast-check@4.10.3:
+  fast-check@4.11.0:
     dependencies:
       pure-rand: 8.4.2
 
@@ -1738,7 +1740,7 @@ snapshots:
   fsevents@2.3.3:
     optional: true
 
-  hono@4.13.19: {}
+  hono@4.13.20: {}
 
   js-tokens@4.0.0: {}
 
