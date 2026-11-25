@@ -12,11 +12,11 @@
 </p>
 
 <p align="center">
-  <a href="#install">Install</a> ·
-  <a href="#lean-blocks">Lean blocks</a> ·
-  <a href="#values">Values</a> ·
-  <a href="#verifying-typescript-functions">Verifying TypeScript functions</a> ·
-  <a href="#examples">Examples</a> ·
+  <a href="#install">Install</a> |
+  <a href="#lean-blocks">Lean blocks</a> |
+  <a href="#values">Values</a> |
+  <a href="#verifying-typescript-functions">Verifying TypeScript functions</a> |
+  <a href="#examples">Examples</a> |
   <a href="https://www.npmjs.com/package/lean-ts">npm</a>
 </p>
 
