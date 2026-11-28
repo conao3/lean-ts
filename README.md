@@ -1,13 +1,9 @@
-> **This project moved to [conao3/lean-leanfran](https://github.com/conao3/lean-leanfran/tree/master/langs/TypeScript).** Development continues in its `langs/TypeScript/` directory.
-
+<p align="center"><img src="docs/assets/banner.png" alt="lean-ts: Write and prove functions in Lean 4, run them as TypeScript" width="880"></p>
 <p align="center"><strong>Write and prove functions in Lean 4, run them as TypeScript</strong></p>
-
 <p align="center">
-  <a href="https://www.npmjs.com/package/lean-ts"><img src="https://img.shields.io/npm/v/lean-ts" alt="npm version"></a>
   <a href="https://github.com/conao3/lean-ts/actions/workflows/ci.yml"><img src="https://github.com/conao3/lean-ts/actions/workflows/ci.yml/badge.svg?branch=master" alt="CI"></a>
-  <a href="https://github.com/conao3/lean-ts/blob/master/LICENSE"><img src="https://img.shields.io/github/license/conao3/lean-ts" alt="License: Apache-2.0"></a>
-  <a href="https://github.com/conao3/lean-ts/blob/master/package.json"><img src="https://img.shields.io/badge/Node-%3E%3D22.18-blue" alt="Node >=22.18"></a>
-  <a href="https://github.com/conao3/lean-ts/blob/master/lean-toolchain"><img src="https://img.shields.io/badge/Lean-v4.35.0-blue" alt="Lean v4.35.0"></a>
+  <a href="https://github.com/conao3/lean-ts/releases"><img src="https://img.shields.io/github/v/tag/conao3/lean-ts" alt="Latest tag"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/conao3/lean-ts" alt="License"></a>
   <a href="https://github.com/conao3/lean-ts/stargazers"><img src="https://img.shields.io/github/stars/conao3/lean-ts?style=flat" alt="GitHub stars"></a>
 </p>
 
@@ -17,10 +13,12 @@
   <a href="#values">Values</a> |
   <a href="#verifying-typescript-functions">Verifying TypeScript functions</a> |
   <a href="#examples">Examples</a> |
-  <a href="https://www.npmjs.com/package/lean-ts">npm</a>
+  <a href="#license">License</a>
 </p>
 
-# lean-ts
+<h1>lean-ts</h1>
+
+> **This project moved to [conao3/lean-leanfran](https://github.com/conao3/lean-leanfran/tree/master/langs/TypeScript).** Development continues in its `langs/TypeScript/` directory.
 
 lean-ts lets you write functions in Lean 4, prove theorems about them, and call them from
 TypeScript with plain values and Standard Schema types as arguments and results. The npm package
